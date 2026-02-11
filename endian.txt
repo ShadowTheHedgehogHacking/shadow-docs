@@ -1,0 +1,34 @@
+--- Same Endianness & Format
+setid.bin
+layout [_cmn / _nrm / _ds1 / _hrd].dat
+_cam.dat
+_light.bin
+.fog
+AFS
+ADX
+
+DFF (model)
+ADB (animated texture)
+UVA (RW Shader / UV Animation)
+DMA (event morph)
+BON - For EVENT only!
+MTN - For EVENT only!
+FNT - Indexes changes for audio
+SRD (Staff Roll)
+
+
+
+--- Flipped Endianness
+BIN (stage GDT.one, common/score.bin)
+BON (stage GDT.one, character - animation bone remap system - byte 01 controls)
+CCL
+TXD [and different format]
+MTN [character, gdt - byte 01 controls, where 00 = little endian, 01 = big endian]
+MTP [character, gdt]
+NCP (gncp [gamecube] / xncp [xbox] / sncp [ps2]) [and different format]
+PTP (stage splines)
+EFD
+
+
+--- Same Endianness, but different format
+RG1/RX1 (Geo)
