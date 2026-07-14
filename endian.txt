@@ -15,7 +15,8 @@ BON - For EVENT only!
 MTN - For EVENT only!
 FNT - Indexes changes for audio
 SRD (Staff Roll)
-
+BDT (Visibility/Chunk Range Data)
+SNB (character intro camera)
 
 
 --- Flipped Endianness
@@ -26,7 +27,7 @@ TXD [and different format]
 MTN [character, gdt - byte 01 controls, where 00 = little endian, 01 = big endian]
 MTP [character, gdt]
 NCP (gncp [gamecube] / xncp [xbox] / sncp [ps2]) [and different format]
-PTP (stage splines)
+PTP (stage splines) - Note POF0 section is identical regardless of endian
 EFD
 
 
