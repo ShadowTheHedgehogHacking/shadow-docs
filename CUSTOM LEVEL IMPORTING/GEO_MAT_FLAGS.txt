@@ -1,0 +1,19 @@
+Note: Might be outdated, HPP may have newer defs
+2021.11.21
+
+Shadow Geo Render Flags:
+N
+D - Distance (Skybox generally)
+OS - Opaque Solid (ground)
+OSL - BAD DO NOT USE
+O - Opaque
+OW
+OL - BAD DO NOT USE
+P
+AF - Alpha - but has problems with transparency stacking
+A - Alpha
+AL - BAD DO NOT USE
+K - Good transparency
+M - BAD DO NOT USE
+G - Glow
+GL - BAD DO NOT USE

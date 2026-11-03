@@ -1,0 +1,2 @@
+Collision can have multiple files in the same chunk
+See STG0201_COLI_06 and 06_ (ottotto?)

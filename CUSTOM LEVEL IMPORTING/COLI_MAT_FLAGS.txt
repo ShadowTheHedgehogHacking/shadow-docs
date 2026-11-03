@@ -1,0 +1,26 @@
+Shadow coli flags (material name) (courtesy of tybis and thehatedgravity)
+
+stg0002 flags:
+01000000: standard floor (concrete)
+01000010: metal plate floor
+01000010: bumpy metal floor
+01000030: grass floor
+01000040: sand floor
+01000050: dirt floor
+01000060: stone tile floor
+01000080: wood floor
+010000B0: metal grate floor
+010000C0: circuit floor
+Use 02xxxxxx for wall variant of each of these (these are used for bullets hitting the wall effects)
+
+01000200: conc floor    navy blue
+02000000: wall        cyan
+02020000: nocling wall?    yellow
+08000000: run guard    powder blue
+10000000: boundary wall    light olive
+20000000: death        red
+
+
+
+Spline loop type requires special collision on floors to work
+confirmed when doing geo -> coli port of westopolis - splines did not work even with same path

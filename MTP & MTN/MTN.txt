@@ -1,0 +1,30 @@
+FROM 2022.04.29
+
+_atc_dash = slide
+_bra = hang state
+_bra_h = pole (UpDown type)
+_eda = melee weapon state
+_drill = air attack
+_miss = dead state
+_fw_jump = jump dash & light dash
+_run_b = strafe backwards
+_run_b_l = strafe backwards + left
+_run_l = strafe left
+sh_jump_fa + fb (start and loop) = 'true trap jump'
+sh_jump_trick = unused?
+sh_jump_trickA and B = homing attack hits
+_buki_off = drop gun
+_buki_pick = pickup gun
+
+
+// Apply these properties to any MTN to make it loop (probably the 'B' value controls this)
+"sh_run_atc_eda": [
+      {
+        "A": 1,
+        "B": 4
+      },
+      {
+        "A": 0,
+        "B": -1
+      }
+    ],
